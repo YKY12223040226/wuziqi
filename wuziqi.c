@@ -54,6 +54,10 @@ int main(){
 
                     // 显示游戏结束消息
                     outtextxy(200, 200, msg);
+                    
+                      //点击键盘关闭棋盘
+                    getchar();
+                    closegraph();
                 }
                 current_player = current_player == 1 ? 2 : 1; // 切换当前玩家
             }
